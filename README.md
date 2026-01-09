@@ -5,7 +5,7 @@ Built with a focus on clean UI, intuitive navigation, and scalable front-end des
 
 🌐 Live Demo
 
-👉 View Website
+👉 View Website- https://chaitanyajatwork-sys.github.io/EveryThing.com/
 
 
 📌 About the Project
