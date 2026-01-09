@@ -1,0 +1,465 @@
+
+body{
+    margin: 0px;
+}
+
+#navbar{
+    height: 60px;
+    margin: 0px;
+    background-color: rgb(41,50,65);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+    
+  
+}
+.nav-logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 10px;
+}
+.logo{
+    height: 58px;
+    width: 90px;
+    background-image: url("logo3.png");
+    background-size: cover;
+    margin-left: 6px;
+    margin-top: 8px;
+    
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.nav-search{
+    height: 38px;
+    width: 650px;
+    border-radius: 8px;
+}
+.searchbox{
+    background-color: white;
+    height: 32px;
+    width: 600px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+   
+
+}
+#searchbutton{
+    background-color: orange;
+    height: 37px;
+    width: 40px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#profile-icon{
+    color: white;
+    margin-left: 5px;
+}
+#profile{
+    color: white;
+    font-weight: 700;
+}
+#order-icon{
+    margin-left: 10px;
+}
+.cat-panel{
+    height: 150px;
+    background-color: rgb(51,53,51);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.cat-phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    
+
+
+}
+.cat-phone img{
+    height: 120px;
+    width: 78px;
+    object-fit: cover;
+}
+.cat-elec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.cat-elec img{
+    height: 120px;
+    width: 115px;
+    object-fit: cover;
+
+}
+.cat-fashion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.cat-fashion img{
+    height: 120px;
+    width: 115px;
+    object-fit: cover;
+
+}
+.cat-fur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.cat-fur img{
+    height: 120px;
+    width: 125px;
+    object-fit: cover;
+
+}
+.cat-grocery{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.cat-grocery img{
+    height: 120px;
+    width: 125px;
+    object-fit: cover;
+
+}
+.cat-toys{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.cat-toys img{
+    height: 120px;
+    width: 138px;
+    object-fit: cover;
+
+}
+
+.hero-section{
+    height: 370px;    
+    background-image: url("herobg.png");
+    background-size: cover;
+    
+}
+.shop-section{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+.box{
+    height: 280px;
+    width: 222px;
+    color: black;
+    border: 4px solid whitesmoke;
+    background-color: whitesmoke;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.for-men{
+    height: 233px;
+    width: 168px;
+    background-image: url("Grey\ Fashion\ Sale\ Instagram\ Story.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 22px;
+    margin-top: 14px;
+}
+.for-women{
+    height: 233px;
+    width: 168px;
+    background-image: url("Beige\ Elegant\ Collage\ Outfit\ Inspirations\ \ Instagram\ Post.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 22px;
+    margin-top: 14px;
+
+}
+.for-kids{
+    height: 233px;
+    width: 168px;
+    background-image: url("Colorful\ Fun\ and\ Cute\ Kids\ Clothing\ Store\ Logo.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 22px;
+    margin-top: 14px;
+}
+.pets{
+    height: 233px;
+    width: 168px;
+    background-image: url("Blue\ and\ Yellow\ Playful\ Pets\ Instagram\ Post.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 22px;
+    margin-top: 14px;
+}
+.shop-section4{
+    background-color: white;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bigbox{
+    height: 380px;
+    width: 600px;
+    border:4px solid white;
+    display: inline-block;
+    background-color: whitesmoke;   
+
+}
+.big-box1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+  gap: 10px;
+  padding: 10px;
+}
+
+/* All sections same style */
+.section1{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("White\ Blue\ Minimalist\ Jeans\ Longpant\ New\ Arrival\ Instagram\ Post.png");
+    background-size: 212px;
+}
+.sec:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.section2{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Red\,\ White\,\ and\ Black\ Shoes\ Products\ Sale\ Instagram\ Post.png");
+    background-size: 241px;
+}
+.section3{ 
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Green\ and\ White\ Minimalist\ t-shirt\ Instagram\ Post.png");
+    background-size: contain;
+}
+.section4{
+  border: 2px solid transparent;
+  background-color: white;
+  background-image: url("Green\ and\ Gold\ Simple\ Jewelry\ Sale\ Promotion\ Instagram\ Post.png");
+  background-size: contain;
+}
+.big-box2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+  gap: 10px;
+  padding: 10px;
+}
+
+/* All sections same style */
+.sectionb1{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Blue\ and\ White\ Futuristic\ Game\ Controller\ Sale\ Instagram\ Post.png");
+    background-size: cover;
+}
+.sectionb2{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Blue\ Modern\ Home\ Appliances\ Instagram\ Post.png");
+    background-size: cover;
+
+}
+.sectionb3{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("White\ And\ Green\ Modern\ Gadget\ Product\ Promotion\ Instagram\ Post.png");
+    background-size: cover;
+}
+.sectionb4{
+  border: 2px solid transparent;
+  background-color: white;
+  background-image: url("Black\ and\ White\ Minimalist\ Watches\ Instagram\ Post.png");
+  background-size: cover;
+}
+.shop-section4b{
+    background-color: white;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.big-box2-1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+  gap: 10px;
+  padding: 10px;
+}
+.section2-1{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("91ZVf3kNrcL._AC_SY200_.jpg");
+    background-size: cover;
+}
+.section2-2{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Blue\ and\ White\ Simple\ Pharmacy\ Store\ Instagram\ Post.png");
+    background-size: cover;
+}
+.section2-3{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Fuji_BTF_Quad_Cards_1x_Make-up._SY116_CB558654384_.jpg");
+    background-size: cover;
+}
+.section2-4{
+  border: 2px solid transparent;
+  background-color: white;
+  background-image: url("610I+9D8U6L._AC_SY200_.jpg");
+  background-size: cover;
+}
+.big-box2-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+  gap: 10px;
+  padding: 10px;
+}
+.section2b-1{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Fuji_Defect_Reduction_1x_Laptop._SY116_CB549022351_.jpg");
+    background-size: cover;
+}
+.section2b-2{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Fuji_Defect_Reduction_1x_PC._SY116_CB549022351_.jpg");
+    background-size: cover;
+}
+.section2b-3{
+    border: 2px solid transparent;
+    background-color: white;
+    background-image: url("Fuji_Defect_Reduction_1x_Hard_Drives._SY116_CB549022351_.jpg");
+    background-size: cover;
+}
+.section2b-4{
+  border: 2px solid transparent;
+  background-color: white;
+  background-image: url("Fuji_Defect_Reduction_1x_Monitors._SY116_CB549022351_.jpg");
+  background-size: cover;
+}
+footer{
+    margin-top: 20px;
+}
+.foot-panel1{
+    height: 50px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #333333;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+ul a{
+    display: block;
+    color: #DDDDDD;
+    margin-top: 10px;
+}
+p{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.foot-panel3{
+    height: 80px;
+    background-color: #333333;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-logo{
+    background-image: url("logo3.png");
+    height: 100%;
+    width: 117px;
+    background-size: cover;
+}
+.foot-addon{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x{
+    border: 2px solid white;
+    height: 45px;
+    width: 135px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.india img{
+  width: 24px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.india:hover{
+  border-color: #fff;
+}
+.foot-panel4{
+    height: 80px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDDDDD;
+
+
+}
